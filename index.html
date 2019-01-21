@@ -9,6 +9,8 @@
     <!-- Bootstrap CSS -->
       
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/mediaelement/2.22.0/mediaelementplayer.min.css'>
+    <link rel="stylesheet" href="css/style.css"> 
       
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     
@@ -51,7 +53,28 @@
   </head>
     <!-- NAVBAR -->
     
-    <nav class="navbar navbar-dark bg-dark">
+    <div class="pos-f-t">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+            
+        <form class="form-inline">
+            <button class="btn btn-success" type="button"><i class="fab fa-spotify"></i> Spotify </button> - 
+            <button class="btn btn-primary" type="button" href="https://www.facebook.com/SomosRadioUnicaribe"><i class="fab fa-facebook-f"></i> Facebook </button> -   
+            <button class="btn btn-info" type="button" href=""><i class="fab fa-instagram"></i> Instagram </button>   
+        </form>
+        
+        </div>
+          
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <span> <a class="navbar-brand-dark" ><img src=img/Logo%20-%20Alt.png width=400px></a></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    </div>
+    
+    <!--<nav class="navbar navbar-dark bg-dark">
         <a class="navbar-brand-dark" ><img src=img/Logo%20-%20Alt.png width=400px></a>
  
         <nav class="navbar navbar-dark bg-dark">
@@ -70,8 +93,169 @@
 
         </nav>
     
-    </nav>
+    </nav>-->
+    
+    <div class="container-fluid">
+    <div class="container">
+    
+    <br>
+    <div class="alert alert-primary" role="alert">
+        La programación será definida entre el 21 al 25 de Enero ¡Grandes cosas vienen para Radio Unicaribe!
+    </div>    
+    <br>
+        
+    <div class="row">    
+    <audio autoplay class="audio" controls="controls">
+            <source type="audio/mpeg" src="http://67.159.10.149:9030/;stream/1&lang=auto&codec=mp3">
+    </audio>
       
+
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/mediaelement/2.22.0/jquery.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mediaelement/2.22.0/mediaelement-and-player.min.js'></script>
+    </div>
+    
+    <div class="row"> 
+    <table class="table table-dark table-hover table-sm">
+          <thead>
+            <tr>
+              <th scope="col">Horario</th>
+              <th scope="col">Lunes</th>
+              <th scope="col">Martes</th>
+              <th scope="col">Miércoles</th>
+              <th scope="col">Jueves</th>
+              <th scope="col">Viernes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">10</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            
+            <tr>
+              <th scope="row">11</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>  
+              
+            <tr>
+              <th scope="row">12</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+              
+            <tr>
+              <th scope="row">13</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+              
+            <tr>
+              <th scope="row">14</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+              
+            <tr>
+              <th scope="row">15</th>
+              <td></td>
+              <td></td>
+              <td>
+                  <div class="spinner-border text-primary" role="status">
+                    <span class="sr-only">Loading...</span>
+                  </div></td>
+              <td></td>
+              <td></td>
+            </tr>
+              
+            <tr>
+              <th scope="row">16</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+              
+            <tr>
+              <th scope="row">17</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+              
+            <tr>
+              <th scope="row">18</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+              
+            <tr>
+              <th scope="row">19</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+              
+            <tr>
+              <th scope="row">20</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+              
+            <tr>
+              <th scope="row">21</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+              
+          </tbody>
+      </table>
+    
+        <script  src="js/index.js"></script>
+    </div>   
+        
+    <div class="row">
+        <div class="alert alert-warning" role="alert">
+           <i class="farfa-save"></i> Revisa nuestros programas grabados en <a href="https://www.ivoox.com/escuchar-radio-unicaribe_nq_53606_1.html" > iVoox</a> 
+        </div>    
+    </div>
+
+    <div class="row">
+        <a href="http://www.unicaribe.edu.mx"><img src="IMG/logo-universidad-del-caribe2.jpg" alt="Logo Radio" height="50" width=""></a>
+    </div>
+
+        
+    </div>
       
       
       
